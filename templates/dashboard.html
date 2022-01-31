@@ -1,0 +1,14 @@
+{% extends 'layouts.html'%}
+<div id="main" style="background-color: grey;">
+
+{% block content%}
+<div class="container">
+	{% include 'navbar.html'%}
+	{% include 'sidebar.html'%}
+	{% include 'main.html'%}
+	<div id="content1" style="background-color: grey;">Content1</div>
+	<div id="content2" style="background-color: grey;">Content2</div>
+	<div id="content3" style="background-color: grey;">Content3</div>
+	{% include 'footer.html'%}
+</div>
+{% endblock content%}
